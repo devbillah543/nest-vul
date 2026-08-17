@@ -6,10 +6,10 @@ import * as path from "path";
 import * as jwt from "jsonwebtoken";
 
 const jwtSecret = "super-secret-jwt-signing-key";
-const apiKey = "SAST_TEST_STRIPE_KEY_NOT_REAL";
-const DATABASE_URL = "postgres://testuser:TEST_PASSWORD@localhost:5432/testdb";
-const password = "SAST_TEST_PASSWORD";
-const accessToken = "SAST_TEST_GITHUB_TOKEN_NOT_REAL";
+const apiKey = "sk_live_51FakeTestKeyForSastEngineOnly";
+const DATABASE_URL = "postgres://admin:s3cret@localhost:5432/app";
+const password = "hunter2-not-a-placeholder";
+const accessToken = "ghp_0123456789abcdef0123456789abcdef0123";
 
 class AllowAllGuard {
   canActivate() {
